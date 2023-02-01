@@ -1,3 +1,4 @@
+"use strict";
 /* 
 let js = "amazing";
 console.log(40 + 8 + 23 - 10);
@@ -77,7 +78,39 @@ console.log(now - 1991 > now - 2018);
 
 */
 
-const now = 2023;
-const ageAayush = now - 2001;
-const agestifl3r = now - 2019;
-console.log(now - 1991 > now - 2018);
+// const now = 2023;
+// const ageAayush = now - 2001;
+// const agestifl3r = now - 2019;
+// console.log(now - 1991 > now - 2018);
+
+// console.log(25 - 10 - 5);
+
+// const firthName = "aayush";
+// const job = "coder";
+// const birthyear = "2001";
+
+/*
+const fname = prompt 'enter your name';
+
+switch (fname) {
+  case "aayush":
+    console.log("aayush");
+    break;
+  case "aakash":
+    console.log("aakash");
+    break;
+  case "rishabh":
+    console.log("rishabh");
+    break;
+  case "neev":
+    console.log("neev");
+    break;
+  case "prince":
+    console.log("prince");
+    break;
+}
+*/
+function logger() {
+  console.log("my name is aayush");
+}
+logger();
